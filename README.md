@@ -1,3 +1,3 @@
-# Issue faced during installation of stuff
+# Tales of woe (and resolution)
 
-Issues I faced and what solved them during installation of various software.
+Issues I faced and resolutions during installation of various software.
