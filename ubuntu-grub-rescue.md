@@ -71,3 +71,14 @@ normal
 </pre>
 
 to bring up the grub OS selection screen. Everything boots up fine but the grub rescue prompt still comes back on restart.
+
+### Fixing Grub
+
+After booting from grub rescue to Ubuntu, I repaired grub using:
+
+<pre>
+sudo update-grub
+sudo grub-install /dev/sda
+</pre>
+
+where <strong>/dev/sda</strong> is the root drive and not a partition (like /dev/sda10 - where my Ubuntu was installed, /dev/sda1 - where my Windows was installed).
