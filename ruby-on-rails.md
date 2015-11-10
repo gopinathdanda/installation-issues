@@ -9,7 +9,7 @@ Building native extensions.  This could take a while...
 ERROR:  Error installing json:
 	ERROR: Failed to build gem native extension.
 
-    /Users/gdanda/.rbenv/versions/2.0.0-p451/bin/ruby -r ./siteconf20150619-33014-1jndbkl.rb extconf.rb
+    /Users/uname/.rbenv/versions/2.0.0-p451/bin/ruby -r ./siteconf20150619-33014-1jndbkl.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -24,8 +24,8 @@ make: *** [.RUBYARCHDIR.time] Error 1
 
 make install failed, exit code 2
 
-Gem files will remain installed in /Users/gdanda/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/json-1.8.3 for inspection.
-Results logged to /Users/gdanda/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/extensions/x86_64-darwin-13/2.0.0-static/json-1.8.3/gem_make.out
+Gem files will remain installed in /Users/uname/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/json-1.8.3 for inspection.
+Results logged to /Users/uname/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/extensions/x86_64-darwin-13/2.0.0-static/json-1.8.3/gem_make.out
 </pre>
 
 ###Resolution
@@ -55,7 +55,7 @@ Building native extensions.  This could take a while...
 ERROR:  Error installing json:
 	ERROR: Failed to build gem native extension.
 
-    /Users/gdanda/.rbenv/versions/2.0.0-p451/bin/ruby -r ./siteconf20150619-33181-14jdpub.rb extconf.rb
+    /Users/uname/.rbenv/versions/2.0.0-p451/bin/ruby -r ./siteconf20150619-33181-14jdpub.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -71,8 +71,8 @@ make: *** [install-so] Error 1
 
 make install failed, exit code 2
 
-Gem files will remain installed in /Users/gdanda/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/json-1.8.3 for inspection.
-Results logged to /Users/gdanda/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/extensions/x86_64-darwin-13/2.0.0-static/json-1.8.3/gem_make.out
+Gem files will remain installed in /Users/uname/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/json-1.8.3 for inspection.
+Results logged to /Users/uname/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/extensions/x86_64-darwin-13/2.0.0-static/json-1.8.3/gem_make.out
 </pre>
 
 Now <strong>ginstall</strong> was preinstalled (maybe with coreutils) and needed to be just linked:
