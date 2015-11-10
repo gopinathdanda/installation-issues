@@ -15,7 +15,7 @@ in the grub-rescue listed the hard disk partitions [(hd0) (hd0,msdos1) (hd0,msdo
 
 ## Resolution
 
-### Creating a bootable disk on Mac OSX 10.11.1 El Capitan
+### Creating a Ubuntu bootable USB on Mac OSX 10.11.1 El Capitan
 
 <strong>Note:</strong> Live bootable Ubuntu USB flash drive created using Unetbootin on Mac (OSX 10.11.1 El Capitan) was not able to boot up the PC.
 
