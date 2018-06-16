@@ -62,6 +62,12 @@ A useful command is the kill command for pulseaudio, which you might need in cas
 <pre>
 pulseaudio -k
 </pre>
+
+Alternatively, to start pulseaudio automatically whenever you login, you can add the following line to you ~/.bash_profile file:
+
+<pre>
+pulseaudio --start
+</pre>
  
 ## Connecting to your speaker
 
@@ -114,4 +120,10 @@ In case you run into issues, you can get details of the error by running:
 
 <pre>
 sudo systemctl status bluetooth.service
+</pre>
+
+You can also restart just the bluetooth module using:
+
+<pre>
+sudo systemctl restart bluetooth
 </pre>
