@@ -1,6 +1,6 @@
-#Ruby-on-Rails 
+# Ruby-on-Rails 
 
-##Bundle Install Error in Mac OSX 10.10 Yosemite
+## Bundle Install Error in Mac OSX 10.10 Yosemite
 
 While creating a ruby-on-rails project, I was having problem with <pre>bundle install</pre> The error I was getting was this:
 
@@ -28,7 +28,7 @@ Gem files will remain installed in /Users/uname/.rbenv/versions/2.0.0-p451/lib/r
 Results logged to /Users/uname/.rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/extensions/x86_64-darwin-13/2.0.0-static/json-1.8.3/gem_make.out
 </pre>
 
-###Resolution
+### Resolution
 
 As you can see, the problem was:
 
