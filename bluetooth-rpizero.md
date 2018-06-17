@@ -127,3 +127,11 @@ You can also restart just the bluetooth module using:
 <pre>
 sudo systemctl restart bluetooth
 </pre>
+
+## Testing out your audio
+
+You can test your speakers by playing some preinstalled sounds.
+
+<pre>
+aplay /usr/share/sounds/alsa/Noise.wav
+</pre>
